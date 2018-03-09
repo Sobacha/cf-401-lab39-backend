@@ -33,7 +33,7 @@
     "test": "jest --runInBand",
     "test:watch": "jest --watchAll",
     "lint": "eslint .",
-    "lint:test": "npm run lint && npm test"
+    "lint:test": "npm run lint && npm test",
     "dbon": "mkdir -p ./db && mongod --dbpath ./db",
     "dboff": "killall mongod"
   },
